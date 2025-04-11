@@ -1,0 +1,26 @@
+To run this app on the latest Python version, follow these steps:
+
+---
+
+#1. nsure Python is Installed
+- Verify that the latest Python version is installed on your system:
+  python3 --version
+  
+  If not, download and install the latest Python version from [python.org](https://www.python.org/).
+
+---
+
+#2. Set Up a Virtual Environment
+- Create a virtual environment to isolate dependencies:
+  python3 -m venv venv
+- Activate the virtual environment:
+  source venv/bin/activate
+---
+
+# 3. Install Dependencies
+- Install the required dependencies from requirements.txt:
+  pip install --upgrade pip
+  pip install -r requirements.txt
+
+
+Let me know if you need further assistance!
